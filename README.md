@@ -1,10 +1,2 @@
 # Obsidian-app-ribbon-sorting
-I am a beginner and not yet familiar with GitHub or how to write JS plugins. I used AI to write a JS plugin for sorting the Obsidian ribbon. The plugin appends the aria-label attribute to the command elements on mobile, enabling the ribbon commands in mobile Obsidian to be sorted via CSS code similar to that on desktop Obsidian. The CSS code is also uploaded together.
-
-Please unzip the zip file to `%your vault%/.obsidian/plugins`
-
-and place the CSS file in `%your vault%/.obsidian/snippets`. 
-
-Then modify the `aria-label` values in the CSS file to sort the ribbon commands.
-
-Finally, remember to enable this plugin in Obsidian. (Note: The developer has limited programming experience and will add a UI interface to the plugin after learning more about programming.)
+用ai写了一个移动端功能区排序和隐藏命令的插件，获取命令参考了commander获取左侧边栏命令的逻辑，隐藏和排序是通过在菜单栏中添加aria-label实现的。
