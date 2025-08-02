@@ -1,2 +1,3 @@
 # Obsidian-app-ribbon-sorting
 用ai写了一个移动端功能区排序和隐藏命令的插件，获取命令参考了commander获取左侧边栏命令的逻辑，隐藏和排序是通过在菜单栏中添加aria-label实现的。
+可以配合各种延迟启动的插件使用
